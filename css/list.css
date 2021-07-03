@@ -1,0 +1,22 @@
+.list {
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+}
+
+.list-title {
+    font: var(--basefont);
+}
+
+.list-content {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.list-item a {
+    font: var(--basefontBold);
+    transition: color .2s;
+}
