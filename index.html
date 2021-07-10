@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +11,10 @@
 	<link rel="stylesheet" href="./css/index.css">
 	<title>Spotifu</title>
 </head>
+
 <body class="body">
 	<div class="playerControls">
-		<div class="playerControls-buttons">
+		<div class="playerControls-buttons" aria-label="Player controls">
 			<button class="buttonIcon" aria-label="prev" title="prev">
 				<i aria-hidden="true" class="icon-prev"></i>
 			</button>
@@ -33,6 +35,18 @@
 				</div>
 			</span>
 			<span class="playerPlayback-progressTime">02:40</span>
+		</div>
+	</div>
+	<div class="playerVolume">
+		<button class="player-control" aria-label="Mute" aria-describedby="volume-icon">
+			<i id="volume-icon" aria-label="High volume" class="icon-volumeUp" role="presentation"></i>
+		</button>
+		<div class="playerVolume-slider">
+			<div class="slider">
+				<div class="slider-progress">
+					<button class="slider-button" aria-label="control progress" />
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="sidebar">
@@ -105,4 +119,5 @@
 		</nav>
 	</div>
 </body>
+
 </html>
