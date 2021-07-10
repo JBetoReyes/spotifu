@@ -4,10 +4,37 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="og:title" content="Spotifu" />
+	<meta property="og:description" content="Listen the latest hist now!" />
+	<meta property="og:image" content="/images/spotifu-logo.png" />
 	<link rel="stylesheet" href="./css/index.css">
 	<title>Spotifu</title>
 </head>
 <body class="body">
+	<div class="playerControls">
+		<div class="playerControls-buttons">
+			<button class="buttonIcon" aria-label="prev" title="prev">
+				<i aria-hidden="true" class="icon-prev"></i>
+			</button>
+			<button class="buttonIcon is-white" aria-label="play" title="play">
+				<i aria-hidden="true" class="icon-play"></i>
+			</button>
+			<button class="buttonIcon" aria-label="next" title="next">
+				<i aria-hidden="true" class="icon-next"></i>
+			</button>
+		</div>
+		<div class="playerPlayback">
+			<span class="playerPlayback-progressTime">01:40</span>
+			<span class="playerPlayback-slider">
+				<div class="slider">
+					<div class="slider-progress">
+						<button class="slider-button" aria-label="control progress" />
+					</div>
+				</div>
+			</span>
+			<span class="playerPlayback-progressTime">02:40</span>
+		</div>
+	</div>
 	<div class="sidebar">
 		<header class="logo">
 			<a href="/" aria-current="page">
@@ -76,14 +103,6 @@
 				</li>
 			</ul>
 		</nav>
-	</div>
-	<div>
-		<button class="buttonIcon is-white" aria-label="play" title="play">
-			<i aria-hidden="true" class="icon-play"></i>
-		</button>
-		<button class="buttonIcon is-primary" aria-label="play" title="play">
-			<i aria-hidden="true" class="icon-play"></i>
-		</button>
 	</div>
 </body>
 </html>
