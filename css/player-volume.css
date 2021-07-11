@@ -1,10 +1,10 @@
 .playerVolume {
-    display: flex;
     align-items: center;
+    display: flex;
+    gap: 1.5rem;
 }
 
 .playerVolume-slider {
-    flex-shrink: 1;
-    flex-grow: 0;
-    flex-basis: 6rem;
+    flex: 1;
+    inline-size: 6rem;
 }

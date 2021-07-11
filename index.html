@@ -13,64 +13,6 @@
 </head>
 
 <body class="body">
-	<div class="currentSong">
-		<div class="currentSong-cover">
-			<img alt="Cover of Grand Escape (feat. Tokio Miura) RADWIMPS, Toko Miura"
-				title="Cover of Grand Escape (feat. Tokio Miura) RADWIMPS, Toko Miura" src="/images/grand-escape.png"
-				alt="">
-		</div>
-		<div class="currentSong-details">
-			<div class="currentSong-description">
-				<a class="currentSong-title" href="#song">
-					Grand Escape (feat. Tokio Miura)
-				</a>
-				<a class="currentSong-artist" href="#RADWIMPS">
-					RADWIMPS, Toko Miura
-				</a>
-			</div>
-			<div class="currentSong-actions">
-				<button class="player-control" aria-label="Save in library" title="Save in library" role="switch">
-					<i class="icon-heart" aria-hidden="true"></i>
-				</button>
-			</div>
-		</div>
-	</div>
-	<div class="playerControls">
-		<div class="playerControls-buttons" aria-label="Player controls">
-			<button class="buttonIcon" aria-label="prev" title="prev">
-				<i aria-hidden="true" class="icon-prev"></i>
-			</button>
-			<button class="buttonIcon is-white" aria-label="play" title="play">
-				<i aria-hidden="true" class="icon-play"></i>
-			</button>
-			<button class="buttonIcon" aria-label="next" title="next">
-				<i aria-hidden="true" class="icon-next"></i>
-			</button>
-		</div>
-		<div class="playerPlayback">
-			<span class="playerPlayback-progressTime">01:40</span>
-			<span class="playerPlayback-slider">
-				<div class="slider">
-					<div class="slider-progress">
-						<button class="slider-button" aria-label="control progress" />
-					</div>
-				</div>
-			</span>
-			<span class="playerPlayback-progressTime">02:40</span>
-		</div>
-	</div>
-	<div class="playerVolume">
-		<button class="player-control" aria-label="Mute" aria-describedby="volume-icon">
-			<i id="volume-icon" aria-label="High volume" class="icon-volumeUp" role="presentation"></i>
-		</button>
-		<div class="playerVolume-slider">
-			<div class="slider">
-				<div class="slider-progress">
-					<button class="slider-button" aria-label="control progress" />
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="sidebar">
 		<header class="logo">
 			<a href="/" aria-current="page">
@@ -139,6 +81,72 @@
 				</li>
 			</ul>
 		</nav>
+	</div>
+	<div class="player">
+		<div class="player-currentSong">
+			<div class="currentSong">
+				<div class="currentSong-cover">
+					<img alt="Cover of Grand Escape (feat. Tokio Miura) RADWIMPS, Toko Miura"
+						title="Cover of Grand Escape (feat. Tokio Miura) RADWIMPS, Toko Miura" src="/images/grand-escape.png"
+						alt="">
+				</div>
+				<div class="currentSong-details">
+					<div class="currentSong-description">
+						<a class="currentSong-title" href="#song">
+							Grand Escape (feat. Tokio Miura)
+						</a>
+						<a class="currentSong-artist" href="#RADWIMPS">
+							RADWIMPS, Toko Miura
+						</a>
+					</div>
+					<div class="currentSong-actions">
+						<button class="player-control" aria-label="Save in library" title="Save in library" role="switch">
+							<i class="icon-heart" aria-hidden="true"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="player-playerControls">
+			<div class="playerControls">
+				<div class="playerControls-buttons" aria-label="Player controls">
+					<button class="buttonIcon" aria-label="prev" title="prev">
+						<i aria-hidden="true" class="icon-prev"></i>
+					</button>
+					<button class="buttonIcon is-white" aria-label="play" title="play">
+						<i aria-hidden="true" class="icon-play"></i>
+					</button>
+					<button class="buttonIcon" aria-label="next" title="next">
+						<i aria-hidden="true" class="icon-next"></i>
+					</button>
+				</div>
+				<div class="playerPlayback">
+					<span class="playerPlayback-progressTime">01:40</span>
+					<span class="playerPlayback-slider">
+						<div class="slider">
+							<div class="slider-progress">
+								<button class="slider-button" aria-label="control progress" />
+							</div>
+						</div>
+					</span>
+					<span class="playerPlayback-progressTime">02:40</span>
+				</div>
+			</div>
+		</div>
+		<div class="player-playerVolume">
+			<div class="playerVolume">
+				<button class="player-control" aria-label="Mute" aria-describedby="volume-icon">
+					<i id="volume-icon" aria-label="High volume" class="icon-volumeUp" role="presentation"></i>
+				</button>
+				<div class="playerVolume-slider">
+					<div class="slider">
+						<div class="slider-progress">
+							<button class="slider-button" aria-label="control progress" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 
