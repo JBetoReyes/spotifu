@@ -18,8 +18,16 @@
     transform: translateY(0);
 }
 
+.playListA:hover .playListA-cover button:active,
+.playListA:focus-within .playListA-cover button:active {
+    opacity: 1;
+    transform:  scale(0.95);
+}
+
 .playListA-cover img {
     vertical-align: middle;
+    inline-size: 100%;
+    block-size: auto;
 }
 
 .playListA-cover {
@@ -36,7 +44,7 @@
     right: .5rem;
     will-change: opacity, transform;
     transform: translateY(.5rem);
-    transition: .3s opacity, .3s transform;
+    transition: .3s opacity, .3s transform, .3s scale;
 }
 
 .playList-title {

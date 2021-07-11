@@ -9,6 +9,7 @@
 @import './slider.css';
 @import './player.css';
 @import './play-list-a.css';
+@import './play-list-b.css';
 
 :root {
 	--primary: #00B050;
