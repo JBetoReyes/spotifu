@@ -4,7 +4,7 @@
 }
 
 .list-title {
-    font: var(--basefont);
+    font: var(--baseFont);
 }
 
 .list-content {
@@ -17,6 +17,6 @@
 }
 
 .list-item a {
-    font: var(--basefontBold);
+    font: var(--baseFontBold);
     transition: color .2s;
 }
