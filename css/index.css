@@ -10,6 +10,7 @@
 @import './player.css';
 @import './play-list-a.css';
 @import './play-list-b.css';
+@import './play-lists-section.css';
 
 :root {
 	--primary: #00B050;

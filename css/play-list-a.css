@@ -44,7 +44,7 @@
     right: .5rem;
     will-change: opacity, transform;
     transform: translateY(.5rem);
-    transition: .3s opacity, .3s transform, .3s scale;
+    transition: .3s opacity, .3s transform, .3s scale, .3 box-shadow;
 }
 
 .playList-title {
