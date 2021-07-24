@@ -13,6 +13,8 @@
 @import './play-lists-section.css';
 @import './search.css';
 @import './navigation.css';
+@import './header.css';
+@import './sticky.css';
 
 :root {
 	--primary: #00B050;
