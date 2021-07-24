@@ -13,15 +13,33 @@
 </head>
 
 <body class="body">
-	<form class="search" role="search" aria-label="Search by artists, songs or podcasts">
-		<i class="icon-search" aria-hidden="true"></i>
-		<input type="search" placeholder="Search By Artists, Songs Or Podcasts">
-	</form>
+	<header aria-label="User Menu">
+		<div class="navigation">
+			<button class="navigation-prev" aria-label="Go Back">
+				<i class="icon-arrowLeft" aria-hidden="true"></i>
+			</button>
+			<button disabled class="navigation-next" aria-label="Go Forward">
+				<i class="icon-arrowRight" aria-hidden="true"></i>
+			</button>
+		</div>
+		<form class="search" role="search" aria-label="Search by artists, songs or podcasts">
+			<i class="icon-search" aria-hidden="true"></i>
+			<input type="search" placeholder="Search By Artists, Songs Or Podcasts">
+		</form>
+	</header>
 	<section class="playListsSection" aria-labelledby="region1">
 		<div class="playListsSection-top">
 			<h2 class="playListsSection-title" id="region1">
 				Good Night
 			</h2>
+			<div class="navigation">
+				<button class="navigation-prev" aria-label="Go Back">
+					<i class="icon-arrowLeft" aria-hidden="true"></i>
+				</button>
+				<button disabled class="navigation-next" aria-label="Go Forward">
+					<i class="icon-arrowRight" aria-hidden="true"></i>
+				</button>
+			</div>
 		</div>
 		<div class="playListsSection-container">
 			<div class="playListB">
@@ -142,107 +160,114 @@
 				</div>
 			</div>
 		</div>
-		<div class="playListsSection">
-			<div class="playListsSection-top" aria-labelledby="region2">
-				<h2 class="playListsSection-title" id="region2">
-					Listened Recently
-				</h2>
+	</section>
+	<section class="playListsSection">
+		<div class="playListsSection-top" aria-labelledby="region2">
+			<h2 class="playListsSection-title" id="region2">
+				Listened Recently
+			</h2>
+			<div class="navigation">
+				<button class="navigation-prev" aria-label="Go Back">
+					<i class="icon-arrowLeft" aria-hidden="true"></i>
+				</button>
+				<button disabled class="navigation-next" aria-label="Go Forward">
+					<i class="icon-arrowRight" aria-hidden="true"></i>
+				</button>
 			</div>
-			<div class="playListsSection-container">
-				<div class="playListA">
-					<div class="playListA-cover">
-						<img src="./images/the-strokes.jpeg" heigth="150" width="150" alt="Anime list Cover">
-						<button class="buttonIcon is-primary" aria-label="Play" title="Play">
-							<i class="icon-play" aria-hidden="true"></i>
-						</button>
-					</div>
-					<h3 class="playList-title" >Future Present Past</h3>
-					<h4 class="playList-description">The Strokes</h4>
+		</div>
+		<div class="playListsSection-container">
+			<div class="playListA">
+				<div class="playListA-cover">
+					<img src="./images/the-strokes.jpeg" heigth="150" width="150" alt="Anime list Cover">
+					<button class="buttonIcon is-primary" aria-label="Play" title="Play">
+						<i class="icon-play" aria-hidden="true"></i>
+					</button>
 				</div>
-				<div class="playListA">
-					<div class="playListA-cover">
-						<img src="./images/billie.jpeg" heigth="150" width="150" alt="Anime list Cover">
-						<button class="buttonIcon is-primary" aria-label="Play" title="Play">
-							<i class="icon-play" aria-hidden="true"></i>
-						</button>
-					</div>
-					<h3 class="playList-title" >Your Power</h3>
-					<h4 class="playList-description">Billie Eilish</h4>
+				<h3 class="playList-title" >Future Present Past</h3>
+				<h4 class="playList-description">The Strokes</h4>
+			</div>
+			<div class="playListA">
+				<div class="playListA-cover">
+					<img src="./images/billie.jpeg" heigth="150" width="150" alt="Anime list Cover">
+					<button class="buttonIcon is-primary" aria-label="Play" title="Play">
+						<i class="icon-play" aria-hidden="true"></i>
+					</button>
 				</div>
-				<div class="playListA">
-					<div class="playListA-cover">
-						<img src="./images/brandon-flowers.jpeg" heigth="150" width="150" alt="Anime list Cover">
-						<button class="buttonIcon is-primary" aria-label="Play" title="Play">
-							<i class="icon-play" aria-hidden="true"></i>
-						</button>
-					</div>
-					<h3 class="playList-title" >The Desired Effect</h3>
-					<h4 class="playList-description">Brandon Flowers</h4>
+				<h3 class="playList-title" >Your Power</h3>
+				<h4 class="playList-description">Billie Eilish</h4>
+			</div>
+			<div class="playListA">
+				<div class="playListA-cover">
+					<img src="./images/brandon-flowers.jpeg" heigth="150" width="150" alt="Anime list Cover">
+					<button class="buttonIcon is-primary" aria-label="Play" title="Play">
+						<i class="icon-play" aria-hidden="true"></i>
+					</button>
 				</div>
-				<div class="playListA">
-					<div class="playListA-cover">
-						<img src="./images/kali-uchis.jpeg" heigth="150" width="150" alt="Anime list Cover">
-						<button class="buttonIcon is-primary" aria-label="Play" title="Play">
-							<i class="icon-play" aria-hidden="true"></i>
-						</button>
-					</div>
-					<h3 class="playList-title" >Telepatía</h3>
-					<h4 class="playList-description">Kali Uchis</h4>
+				<h3 class="playList-title" >The Desired Effect</h3>
+				<h4 class="playList-description">Brandon Flowers</h4>
+			</div>
+			<div class="playListA">
+				<div class="playListA-cover">
+					<img src="./images/kali-uchis.jpeg" heigth="150" width="150" alt="Anime list Cover">
+					<button class="buttonIcon is-primary" aria-label="Play" title="Play">
+						<i class="icon-play" aria-hidden="true"></i>
+					</button>
 				</div>
-				<div class="playListA">
-					<div class="playListA-cover">
-						<img src="./images/rosalia.jpeg" heigth="150" width="150" alt="Anime list Cover">
-						<button class="buttonIcon is-primary" aria-label="Play" title="Play">
-							<i class="icon-play" aria-hidden="true"></i>
-						</button>
-					</div>
-					<h3 class="playList-title" >Tu Mira</h3>
-					<h4 class="playList-description">Rosalía</h4>
+				<h3 class="playList-title" >Telepatía</h3>
+				<h4 class="playList-description">Kali Uchis</h4>
+			</div>
+			<div class="playListA">
+				<div class="playListA-cover">
+					<img src="./images/rosalia.jpeg" heigth="150" width="150" alt="Anime list Cover">
+					<button class="buttonIcon is-primary" aria-label="Play" title="Play">
+						<i class="icon-play" aria-hidden="true"></i>
+					</button>
 				</div>
-				<div class="playListA">
-					<div class="playListA-cover">
-						<img src="./images/linkin-park.jpeg" heigth="150" width="150" alt="Anime list Cover">
-						<button class="buttonIcon is-primary" aria-label="Play" title="Play">
-							<i class="icon-play" aria-hidden="true"></i>
-						</button>
-					</div>
-					<h3 class="playList-title" >In The End</h3>
-					<h4 class="playList-description">Linkin Park</h4>
+				<h3 class="playList-title" >Tu Mira</h3>
+				<h4 class="playList-description">Rosalía</h4>
+			</div>
+			<div class="playListA">
+				<div class="playListA-cover">
+					<img src="./images/linkin-park.jpeg" heigth="150" width="150" alt="Anime list Cover">
+					<button class="buttonIcon is-primary" aria-label="Play" title="Play">
+						<i class="icon-play" aria-hidden="true"></i>
+					</button>
 				</div>
-				<div class="playListA">
-					<div class="playListA-cover">
-						<img src="./images/florence.jpeg" heigth="150" width="150" alt="Anime list Cover">
-						<button class="buttonIcon is-primary" aria-label="Play" title="Play">
-							<i class="icon-play" aria-hidden="true"></i>
-						</button>
-					</div>
-					<h3 class="playList-title" >Dog Days Are Over</h3>
-					<h4 class="playList-description">Florence + The Machine</h4>
+				<h3 class="playList-title" >In The End</h3>
+				<h4 class="playList-description">Linkin Park</h4>
+			</div>
+			<div class="playListA">
+				<div class="playListA-cover">
+					<img src="./images/florence.jpeg" heigth="150" width="150" alt="Anime list Cover">
+					<button class="buttonIcon is-primary" aria-label="Play" title="Play">
+						<i class="icon-play" aria-hidden="true"></i>
+					</button>
 				</div>
-				<div class="playListA">
-					<div class="playListA-cover">
-						<img src="./images/foo-figthers.jpeg" heigth="150" width="150" alt="Anime list Cover">
-						<button class="buttonIcon is-primary" aria-label="Play" title="Play">
-							<i class="icon-play" aria-hidden="true"></i>
-						</button>
-					</div>
-					<h3 class="playList-title" >Greatest Hits</h3>
-					<h4 class="playList-description">Foo Fighters</h4>
+				<h3 class="playList-title" >Dog Days Are Over</h3>
+				<h4 class="playList-description">Florence + The Machine</h4>
+			</div>
+			<div class="playListA">
+				<div class="playListA-cover">
+					<img src="./images/foo-figthers.jpeg" heigth="150" width="150" alt="Anime list Cover">
+					<button class="buttonIcon is-primary" aria-label="Play" title="Play">
+						<i class="icon-play" aria-hidden="true"></i>
+					</button>
 				</div>
-				<div class="playListA">
-					<div class="playListA-cover">
-						<img src="./images/daft-punk.jpeg" heigth="150" width="150" alt="Anime list Cover">
-						<button class="buttonIcon is-primary" aria-label="Play" title="Play">
-							<i class="icon-play" aria-hidden="true"></i>
-						</button>
-					</div>
-					<h3 class="playList-title" >One More Time</h3>
-					<h4 class="playList-description">Daft Punk</h4>
+				<h3 class="playList-title" >Greatest Hits</h3>
+				<h4 class="playList-description">Foo Fighters</h4>
+			</div>
+			<div class="playListA">
+				<div class="playListA-cover">
+					<img src="./images/daft-punk.jpeg" heigth="150" width="150" alt="Anime list Cover">
+					<button class="buttonIcon is-primary" aria-label="Play" title="Play">
+						<i class="icon-play" aria-hidden="true"></i>
+					</button>
 				</div>
+				<h3 class="playList-title" >One More Time</h3>
+				<h4 class="playList-description">Daft Punk</h4>
 			</div>
 		</div>
 	</section>
-
 	<div class="sidebar">
 		<header class="logo">
 			<a href="/" aria-current="page">

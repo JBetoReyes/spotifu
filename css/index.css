@@ -12,6 +12,7 @@
 @import './play-list-b.css';
 @import './play-lists-section.css';
 @import './search.css';
+@import './navigation.css';
 
 :root {
 	--primary: #00B050;
