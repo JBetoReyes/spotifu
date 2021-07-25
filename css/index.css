@@ -8,15 +8,13 @@
 @import './ellipsis.css';
 @import './slider.css';
 @import './player.css';
-@import './play-list-a.css';
-@import './play-list-b.css';
-@import './play-lists-section.css';
-@import './search.css';
-@import './navigation.css';
-@import './header.css';
 @import './sticky.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
 
 :root {
+	font-size: 14px;
 	--primary: #00B050;
 	--white: #FFFFFF;
 	--gray10: #B3B3B3;
@@ -34,3 +32,14 @@
 	--small: normal .75em/normal var(--baseFontFamily);
 }
 
+@media screen and (min-width: 768px) {
+	:root {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 1366px) {
+	:root {
+		font-size: 18px;
+	}
+}
